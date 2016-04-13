@@ -24,8 +24,6 @@
             this._heightPixels = function () {
                 return this._parentHeight() - this._yPixels() - this._parseYPosition(bottom);
             };
-            // Refresh the axes to redraw them against the new bounds
-            this.draw(0, true);
             // return the chart object for method chaining
             return this;
         };
